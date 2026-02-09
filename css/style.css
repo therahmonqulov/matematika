@@ -36,6 +36,7 @@ header {
     margin: 21px auto 11px auto;
     border-radius: 100px;
 }
+
 .first {
     padding: 26px 0px 27px 0px;
     text-align: center;
@@ -174,16 +175,25 @@ header {
     .first p {
         font-size: clamp(0px, 9vw, 24px);
     }
-    .arrow {
-        display: none;
+    .timer {
+        position: absolute;
+        top: 180px;
+        left: 215px;
+        font-family: Kuunari;
+        background: #fff;
+        padding: 7px 12px;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: clamp(0px, 5vw, 24px);
+        border: 2px solid #21BF8E;
     }
     .hero_card {
-    position: absolute;
-    right: 20px;
-    top: 30px;
-    background: #fff;
-    padding: 15px 10px;
-    border-radius: 18px;
-    border: 1px solid #B7B7B7;
-}
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        background: #fff;
+        padding: 15px 10px;
+        border-radius: 18px;
+        border: 1px solid #B7B7B7;
+    }
 }
