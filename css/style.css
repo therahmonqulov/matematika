@@ -7,14 +7,12 @@
 @font-face {
     font-family: Kuunari;
     src: url(../astess/font/Caros.woff2);
-    font-style: normal;
     font-display: swap;
 }
 
 @font-face {
     font-family: Caros;
-    src: url(../astess/font/Mika\ Melvas\ -\ Kuunari\ Bold.woff2);
-    font-style: normal;
+    src: url(../astess/font/Kuunari.woff2);
     font-display: swap;
 }
 
@@ -24,7 +22,7 @@
 }
 
 body {
-    background-image: url(../astess/img/background.png);
+    background-image: url(../astess/img/background.avif);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +41,7 @@ header {
 .first {
     padding: 26px 0px 27px 0px;
     text-align: center;
-    background-image: url(../astess/img/first_img.png);
+    background-image: url(../astess/img/first_img.avif);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
