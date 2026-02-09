@@ -6,12 +6,12 @@
 
 @font-face {
     font-family: Kuunari;
-    src: url(../astess/font/Mika\ Melvas\ -\ Kuunari\ Bold.otf);
+    src: url(../astess/font/Mika\ Melvas\ -\ Kuunari\ Bold.woff2);
 }
 
 @font-face {
     font-family: Caros;
-    src: url(../astess/font/Caros.woff);
+    src: url(../astess/font/Caros.woff2);
 }
 
 .container {
