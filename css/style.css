@@ -80,7 +80,7 @@ header {
 
 .hero_card p {
     font-family: Caros;
-    font-size: 12px;
+    font-size: clamp(0px, 2.7vw, 12px);
     color: #222;
     text-align: left;
 }
@@ -104,7 +104,7 @@ header {
 }
 
 .hero_card span {
-    font-size: 16px;
+    font-size: clamp(0px, 4.6vw, 16px);
     font-weight: 700;
 }
 
@@ -123,7 +123,7 @@ header {
     padding: 7px 12px;
     border-radius: 10px;
     font-weight: bold;
-    font-size: 24px;
+    font-size: clamp(0px, 5vw, 24px);
     border: 2px solid #21BF8E;
 }
 
@@ -168,4 +168,22 @@ header {
 
 .second_container {
     width: 100%;
+}
+
+@media (max-width: 320px) {
+    .first p {
+        font-size: clamp(0px, 9vw, 24px);
+    }
+    .arrow {
+        display: none;
+    }
+    .hero_card {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    background: #fff;
+    padding: 15px 10px;
+    border-radius: 18px;
+    border: 1px solid #B7B7B7;
+}
 }
