@@ -210,5 +210,3 @@ header {
         font-size: 32px;
     }
 }
-
-@media (min-width: 435px) {.container {max-width: 365px;margin: auto;}.first p {font-size: 32px;}}
