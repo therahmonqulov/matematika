@@ -14,10 +14,6 @@
     src: url(../astess/font/Caros.woff2);
 }
 
-.container {
-    max-width: 370px;
-    margin: 0px auto;
-}
 
 body {
     background-image: url(../astess/img/background.avif);
@@ -48,7 +44,7 @@ header {
 
 .first p {
     font-family: Kuunari;
-    font-size: clamp(0px, 9.5vw, 32px);
+    font-size: clamp(0px, 9.2vw, 41px);
     text-transform: uppercase;
 }
 
@@ -110,9 +106,10 @@ header {
 }
 
 .arrow img {
+    width: 90px;
     position: absolute;
-    right: 20px;
-    top: 190px;
+    right: 15px;
+    top: 188px;
 }
 
 .timer {
@@ -159,7 +156,8 @@ header {
     color: #fff;
     font-weight: bold;
     font-size: clamp(0px, 4.6vw, 18px);
-    background-color: #0773BD;
+    background-color: #0a8ae1;
+    box-shadow: 0px 4px 0px #005fa3;
 }
 
 .second_button a img {
@@ -187,6 +185,7 @@ header {
         font-size: clamp(0px, 5vw, 24px);
         border: 2px solid #21BF8E;
     }
+
     .hero_card {
         position: absolute;
         right: 20px;
@@ -195,5 +194,16 @@ header {
         padding: 15px 10px;
         border-radius: 18px;
         border: 1px solid #B7B7B7;
+    }
+}
+
+@media (min-width: 430px) {
+    .container {
+        max-width: 365px;
+        margin: auto;
+    }
+
+    .first p {
+        font-size: 32px;
     }
 }
