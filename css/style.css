@@ -46,7 +46,7 @@ header {
 
 .first p {
     font-family: Kuunari;
-    font-size: clamp(0px, 9.2vw, 41px);
+    font-size: clamp(0px, 9.4vw, 41px);
     text-transform: uppercase;
 }
 
@@ -175,6 +175,7 @@ header {
     .first p {
         font-size: clamp(0px, 9vw, 24px);
     }
+
     .timer {
         position: absolute;
         top: 180px;
@@ -209,3 +210,5 @@ header {
         font-size: 32px;
     }
 }
+
+@media (min-width: 435px) {.container {max-width: 365px;margin: auto;}.first p {font-size: 32px;}}
